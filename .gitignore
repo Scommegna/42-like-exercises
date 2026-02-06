@@ -1,0 +1,5 @@
+.vscode
+*.dSYM
+output
+*.out
+main.c
