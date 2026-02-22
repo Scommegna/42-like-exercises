@@ -5,6 +5,7 @@
 
 ssize_t ft_putchar(char value);
 size_t ft_strlen(char *str);
-void ft_swap(int* a, int* b)
+void ft_swap(int* a, int* b);
+ssize_t ft_putstr(char* str);
 
 #endif

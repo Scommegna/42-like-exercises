@@ -21,3 +21,9 @@ void ft_swap(int* a, int* b) {
    *a = *b;
    *b = temp;
 }
+
+ssize_t ft_putstr(char* str) {
+   size_t length = ft_strlen(str);
+
+   return write(1, str, length);
+}
